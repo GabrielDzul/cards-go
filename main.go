@@ -7,16 +7,10 @@ func main() {
 
 	//evenOrOdd()
 
-	jim := person{
-		firstName: "Jim",
-		lastName:  "Party",
-		contactInfo: contactInfo{
-			email:   "test@test",
-			zipCode: 12345,
-		},
-	}
+	sb := spanishBot{}
+	eb := englishBot{}
 
-	jim.updateName("Jimmy")
+	printGreeting(sb)
+	printGreeting(eb)
 
-	jim.print()
 }
