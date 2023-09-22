@@ -1,3 +1,4 @@
+// Http interface example
 package main
 
 import (
